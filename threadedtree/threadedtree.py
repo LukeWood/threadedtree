@@ -21,7 +21,7 @@ class ThreadedTree(object):
 	"""A carefully implemented unbalanced double threaded binary search tree. Threaded binary search trees are optimized for in-order (ascending or descending) traversal and use no stack or recursion to perform its functions."""
 	def __init__(self, iterable=[], duplicate_strategy="none", root=None):
 		"""
-		Creates and empty unbalanced double threaded binary search tree.
+		Creates an empty unbalanced double threaded binary search tree.
 
 	    A tree can be intialized using a valid python iterable object as a parameter to the constructor.
 
